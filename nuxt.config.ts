@@ -15,7 +15,7 @@ export default defineNuxtConfig({
     'nuxt-gtag',
   ],
   gtag: {
-    id: "G-EMWKK8YM4R"
+    id: "G-C0V6BFXNNH"
   },
 
   colorMode: {
@@ -56,7 +56,7 @@ export default defineNuxtConfig({
     },
   },
   site: {
-    url: "filtersfound.com",
+    url: "bizlawyerup.com",
   },
   compatibilityDate: "2024-09-20",
 });

@@ -2,7 +2,7 @@ import type Emoji from "./components/OgImage/Emoji.vue";
 
 export default defineAppConfig({
   general: {
-    title: "Motorcycle Training Directory",
+    title: "Corporate Attorney Directory",
     logo: "/logo.png",
     // iconLogo: "fluent-emoji-flat:leaf-fluttering-in-wind",
   },
@@ -10,9 +10,9 @@ export default defineAppConfig({
     // override the general settings for seo tags.
     // leave empty for general priority.
     // url is necessary for correct function of seo module.
-    name: "Motorcycle Training Directory",
-    description: "Directory of Motorcycle Training",
-    url: "https://MotoLicense.com",
+    name: "Biz Lawyer Up",
+    description: "Corporate Attorney Directory",
+    url: "https://bizlawyerup.com",
     favicon: {
       image: "",
       emoji: "",
@@ -57,21 +57,21 @@ export default defineAppConfig({
       labelForCard: "Featured ✨",
     },
     tags: [
-{"name": "Motorcycle Safety Foundation", "color": "gray"},
-  {"name": "Rider Safety Gear", "color": "gray"},
-  {"name": "Basic Rider Training", "color": "gray"},
-  {"name": "Motorcycle Safety Courses", "color": "gray"},
-  {"name": "Professional Rider Coaches", "color": "gray"},
-  {"name": "Motorcycle Licensing", "color": "gray"},
-  {"name": "Advanced Riding Skills", "color": "gray"},
-  {"name": "Motorcycle Safety Certification", "color": "gray"},
-  {"name": "Training Locations Map", "color": "gray"},
-  {"name": "DMV Test Waiver", "color": "gray"},
-  {"name": "Novice Rider Instruction", "color": "gray"},
-  {"name": "Motorcycle Endorsement", "color": "gray"},
-  {"name": "Weekend Classes", "color": "gray"},
-  {"name": "Custom Training Solutions", "color": "gray"},
-  {"name": "Three-Wheel Motorcycle Training", "color": "gray"}
+{"name": "Litigation Defense", "color": "gray"},
+  {"name": "Start-Up Legal Services", "color": "gray"},
+  {"name": "Corporate Governance", "color": "gray"},
+  {"name": "Contract Drafting", "color": "gray"},
+  {"name": "Mergers and Acquisitions", "color": "gray"},
+  {"name": "Compliance and Regulation", "color": "gray"},
+  {"name": "Small Business Support", "color": "gray"},
+  {"name": "Employment Litigation", "color": "gray"},
+  {"name": "Real Estate Law", "color": "gray"},
+  {"name": "Business Disputes", "color": "gray"},
+  {"name": "Family Business Law", "color": "gray"},
+  {"name": "Estate Planning", "color": "gray"},
+  {"name": "Taxation Advice", "color": "gray"},
+  {"name": "Bankruptcy Guidance", "color": "gray"},
+  {"name": "Intellectual Property", "color": "gray"}
 ],
     tagPages: {
       title: "Available {0} items:",
@@ -83,7 +83,7 @@ export default defineAppConfig({
     banner: {
       show: false,
       text: "Add your listing",
-      link: "https://Directory.com",
+      link: "https://bizlawyerup.com",
       brandText: "Directory",
     },
     navbar: {
@@ -105,7 +105,7 @@ export default defineAppConfig({
     },
   },
   footer: {
-    description: "Directory of Motorcycle Training",
+    description: "Directory of Corporate Attorneys",
     // socials: {
     //   github: {
     //     link: "",
