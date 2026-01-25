@@ -7,7 +7,16 @@ const app = useNuxtApp();
 const { page, layout } = useContent();
 
 function getSEOTitle(): string {
-  return page?.value?.title || config?.site?.name || "Missing Title";
+  const baseTitle = page?.value?.title || config?.site?.name || "Missing Title";
+  const route = useRoute();
+  const path = route.path;
+
+  // For directory entries, add compelling suffix
+  if (path.startsWith('/dir/') && page?.value?.title) {
+    return `${baseTitle} Reviews & Alternatives`;
+  }
+
+  return baseTitle;
 }
 
 function getSEODescription(): string {

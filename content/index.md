@@ -1,5 +1,7 @@
 ---
 layout: wide
+title: Find 30+ Top Corporate Attorneys & Business Lawyers
+description: Compare the best corporate attorneys and business lawyers. Find legal experts for contracts, M&A, compliance, litigation, and more.
 ---
 
 <table style="width:100%; height:150px;">

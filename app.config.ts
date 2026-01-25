@@ -11,7 +11,7 @@ export default defineAppConfig({
     // leave empty for general priority.
     // url is necessary for correct function of seo module.
     name: "Biz Lawyer Up",
-    description: "Corporate Attorney Directory",
+    description: "Find and compare top corporate attorneys and business lawyers. Expert legal help for contracts, M&A, compliance, startups, and litigation.",
     url: "https://bizlawyerup.com",
     favicon: {
       image: "",
