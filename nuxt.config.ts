@@ -56,7 +56,7 @@ export default defineNuxtConfig({
     },
   },
   site: {
-    url: "bizlawyerup.com",
+    url: "https://bizlawyerup.com",
   },
   compatibilityDate: "2024-09-20",
 });

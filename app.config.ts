@@ -90,6 +90,8 @@ export default defineAppConfig({
       colorModeSelector: true,
       links: [
         { name: "Directory", to: "/" },
+        { name: "Best Of", to: "/best" },
+        { name: "Compare", to: "/compare" },
         { name: "Info", to: "/blog" },
         // { name: "Advertise", to: "/advertise" },
         // {
